@@ -7,6 +7,7 @@ public class Basket {
         private Node next;
     }
 
+
     public Boolean add(Entity entity, Basket[] basketArray) {
         if (basketArray[calculateIndex(entity.getKey(), basketArray)] != null) {
             return false;

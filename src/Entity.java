@@ -1,5 +1,5 @@
 public class Entity<K, V> {
-         private K key;
+    private K key;
         private V value;
 
         public K getKey() {
@@ -17,4 +17,5 @@ public class Entity<K, V> {
         public void setValue(V value) {
             this.value = value;
         }
+
 }

@@ -22,6 +22,10 @@ public class LeftLeaningRedBlackTree<Key extends Comparable<Key>, Value> {
             this.subtreeSize = size;
         }
 
+        @Override
+        public String toString() {
+            return "(" + key + ", " + value + ")";
+        }
 
 
         public Node getKey() {
@@ -93,5 +97,6 @@ public class LeftLeaningRedBlackTree<Key extends Comparable<Key>, Value> {
         if (x == null) return 0;
         else return x.subtreeSize;
     }
+
 
 }
