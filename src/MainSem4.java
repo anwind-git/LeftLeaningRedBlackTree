@@ -5,6 +5,7 @@ public class MainSem4 {
 
         Entity entity = new Entity();
         basket.add(entity,hashTable.basketArray);
+        System.out.println(hashTable);
 
         LeftLeaningRedBlackTree<Integer, String> tree = new LeftLeaningRedBlackTree<>();
         tree.put(1, "one");
